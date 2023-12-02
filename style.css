@@ -1,0 +1,181 @@
+@media (min-width: 400px) {
+    html {
+        font-family: 'Nunito', sans-serif;
+    }
+    
+    body {
+        margin: 0;
+        background-color: #efefef;
+    }
+    
+    header {
+        margin: 0;
+        background-image: url(fondo.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        padding: 1rem 1rem;
+    }
+    
+    header h1 {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    nav a {
+        transition: color 0.3s ease;
+        color: white;
+        padding: 8px 16px;
+        text-decoration: none;
+    }
+    
+    nav a:hover {
+        color: red;
+    }
+
+    #publicacion {
+        background-color: black;
+        color: white;
+        text-align: center;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+
+    .container {
+        width: 400px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    
+    .container div {
+        align-items: center;
+    }
+    
+    section article {
+        transition: box-shadow 0.3s ease;
+        background-color: white;
+        margin: 5px 0;
+        border-radius: 0.5rem;
+        padding: 0.25rem 0;
+        cursor: pointer;
+    }
+    
+    section article:hover {
+        box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+    }
+    
+    footer {
+        background-color: black;
+        padding: 2rem;
+        color: white;
+        font-size: 1rem;
+    }
+
+    footer section p {
+        margin: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    html {
+        font-family: 'Nunito', sans-serif;
+    }
+    
+    body {
+        margin: 0;
+        background-color: #efefef;
+    }
+    
+    header {
+        margin: 0;
+        background-image: url(fondo.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        padding: 1rem 1rem;
+    }
+    
+    header h1 {
+        font-size: 4rem;
+        text-align: center;
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    nav a {
+        transition: color 0.3s ease;
+        color: white;
+        padding: 8px 16px;
+        text-decoration: none;
+    }
+    
+    nav a:hover {
+        color: red;
+    }
+
+    #publicacion {
+        background-color: black;
+        color: white;
+        text-align: center;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+
+    .container {
+        width: 400px;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+    
+    .container div {
+        margin: 10px;
+        align-items: center;
+    }
+    
+    section article {
+        transition: box-shadow 0.3s ease;
+        background-color: white;
+        margin: 5px 0;
+        border-radius: 0.5rem;
+        padding: 0.25rem 0;
+        cursor: pointer;
+    }
+    
+    section article:hover {
+        box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+    }
+
+    footer {
+        background-color: black;
+        padding: 2rem;
+        color: white;
+        font-size: 1rem;
+    }
+
+    footer section p {
+        margin: 0;
+    }
+}
